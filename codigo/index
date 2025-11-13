@@ -117,7 +117,9 @@
     </div>
 
     <footer>
-        <p>&copy; 2025 Lucas H. B. Ferreira | PortfolioHUB - Implementado com apoio do Google Gemini.</p>
+        git add index.html
+git commit -m "feat(footer): Adiciona link do perfil GitHub no rodapé"
+git push origin feature/adiciona-link-github
     </footer>
 
 </body>
