@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas H. B. Ferreira | PortfolioHUB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        header {
+            background: #2c3e50; /* Azul Marinho para Engenharia/Tecnologia */
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #3498db 5px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        section {
+            padding: 20px 0;
+            margin-bottom: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .project-card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .project-card a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Lucas Henrique Borges Ferreira</h1>
+            <p>Estudante de Engenharia de Software | Desenvolvedor em Formação</p>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>👋 Sobre Mim</h2>
+            [cite_start]<p>Estudante de Engenharia de Software [cite: 4][cite_start], com interesse em tecnologia e inovação[cite: 7].</p>
+            [cite_start]<p>Comprometido em aplicar meus conhecimentos e adquirir novas experiências na área[cite: 8]. [cite_start]Sou uma pessoa proativa, com boa comunicação e facilidade de aprendizado[cite: 29].</p>
+            <p><strong>Meu Foco Atual:</strong> Lógica de Programação, Git/GitHub e metodologias de Engenharia.</p>
+            <p>
+                [cite_start]<a href="https://www.linkedin.com/in/lucas-henrique-4013ab22b/" target="_blank">🔗 Meu Perfil no LinkedIn</a> [cite: 6]
+                |
+                [cite_start]<a href="mailto:lucashenrique1438x@gmail.com">✉️ Contato por Email</a> [cite: 5]
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>💻 Projetos (GitHub)</h2>
+            
+            <div class="project-card">
+                <h3>1. CRUD Simples em Python (v1.0)</h3>
+                <p>Implementação das operações fundamentais (Create, Read, Update, Delete) em uma lista. Foi meu primeiro exercício de versionamento de código e lógica em Python.</p>
+                <p><strong>Foco:</strong> Funções, estruturas de dados (listas) e fluxo de controle.</p>
+                [cite_start]<a href="https://github.com/lucashenrique1438x/CRUD" target="_blank">Ver Repositório no GitHub</a> [cite: 97]
+            </div>
+
+            <div class="project-card">
+                <h3>2. [Novo Projeto Acadêmico]</h3>
+                <p>Em breve! Focado em aplicar conceitos de requisitos, modelagem e design de software do Bootcamp.</p>
+            </div>
+            
+            </section>
+        
+        <section id="experience">
+            <h2>💼 Experiência & Habilidades</h2>
+            [cite_start]<p>Minha experiência anterior em ambientes administrativos (Saúde BRB e Auto Peças Duauto) me deu base em **análise de processos, organização e proatividade**[cite: 13, 14, 21, 25]. Habilidades cruciais que aplico na Engenharia de Software.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Lucas H. B. Ferreira | PortfolioHUB - Implementado com apoio do Google Gemini.</p>
+    </footer>
+
+</body>
+</html>
